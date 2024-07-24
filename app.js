@@ -1,5 +1,5 @@
 let tentativas = 1;
-let numeroLimite = 10;
+let numeroLimite = 100;
 let lista = [];
 let numero = gerarNumeroAleatorio(); // Inicializa a variável `numero` após a função ser definida
 reiniciarTexto();
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function reiniciarTexto() {
   exibirTextoNaTela("h1", "Jogo do Número Secreto");
-  exibirTextoNaTela("p", "Escolha um número de 1 a 10");
+  exibirTextoNaTela("p", "Escolha um número de 1 a 100");
 }
 
 function verificarChute() {
