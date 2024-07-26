@@ -1,5 +1,5 @@
 let tentativas = 1;
-let numeroLimite = 100;
+let numeroLimite = 15;
 let lista = [];
 let numero = gerarNumeroAleatorio(); // Inicializa a variável `numero` após a função ser definida
 reiniciarTexto();
